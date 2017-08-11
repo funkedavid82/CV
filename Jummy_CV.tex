@@ -1,0 +1,206 @@
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage[pdftex]{graphicx}
+\usepackage{moreverb}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{amsmath,amssymb,amsfonts,amsthm,latexsym} 
+\usepackage[all]{xy}
+\usepackage[below]{placeins}
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\def\name{CV}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {mathematics},
+  pdftitle = {\name: CV},
+  pdfsubject = {CV},
+  pdfpagemode = UseNone
+}
+\geometry{
+  body={7.0in, 8.8in},
+  left=1.2in,
+  top=1.28in
+}
+\textwidth 6.4in
+\textheight 10.0in
+\topmargin -0.5in
+\headheight 0in
+\oddsidemargin 0in
+\evensidemargin 0in
+\parskip 0.5\baselineskip
+\parindent 0pt
+\linespread{1.0}
+\moderncvtheme[blue]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+\usepackage{hyperref}
+% personal data
+\firstname{\text{Jummy Funke}\\\\}
+
+\familyname{\text{DAVID}}
+%\title{Resumé title (optional)}               % optional, remove the line if not wanted
+\address{1984 Mathematics Road, \\Vancouver, BC V6T 1Z2, \\British Columbia, }{Canada.}    % optional, remove the line if not wanted
+\mobile{+17789863508, \\+234 80 321 600 81}                    % optional, remove the line if not wanted
+\email{jummy30@math.ubc.ca, \\jummy@aims.ac.za}
+%\homepage{http://users.aims.ac.za/~bamunoba/}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[70pt]{jummy.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{if I have been able to see further, its only I stood on the shoulders of giants}                 % optional, remove the line if not wanted
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{\textsc{Personal Information}}
+\cvitem{Family Name}{\textrm{David}}
+\cvitem{Date of Birth}{\textrm{August 30, 1986}}
+\cvitem{Place of Birth}{\textrm{Osogbo, Osun State, Nigeria}}
+\cvitem{Nationality}{\textrm{Nigerian}}
+\cvitem{Marital Status}{\textrm{Married}}
+\section{\textsc{Education}}
+\cventry{Sept. 2013 --till date}{\textrm{MSc in Applied Mathematics}}{\emph{\textrm{\textrm{University of British Columbia  -- Vancouver, BC}} \textrm{{Canada}}}}
+\cvitem{}{}
+\cvitem{Thesis Title}{\textrm{Modelling of HIV-TB Co-infection  }}
+\cvitem{Supervisor}{\textrm{Professor Fred Brauer.}}
+\cventry{Jul. 2012 --Jun. 2013}{\textrm{MSc in Mathematical Sciences}}{\emph{\textrm{\textrm{Stellenbosch University  -- African Institute for Mathematical Sciences (AIMS),}} \textrm{{South Africa}}}}
+\cvitem{}{}
+\cvitem{Thesis Title}{\textrm{A Model for Analysis of Drug Abuse and HIV Infection.  }}
+\cvitem{Supervisor}{\textrm{Doctor Faraimunashe Chirove.}}
+\cventry{Oct. 2006--Nov. 2011}{\textrm{B.Tech in Pure and Applied Mathematics}}{\emph{\textrm{Ladoke Akintola University of Technology (Lautech), \textrm{{Ogbomoso, Nigeria}}}}} 
+\cvitem{}{}
+\cvitem{Thesis Title}{\textrm{Mathematical Modelling of HIV/AIDS.}}
+\cvitem{Supervisor}{\textrm{Doctor Oluyo Temitayo.}}
+\cvitem{Major}{\textrm{Applied Mathematics.}}
+\cvitem{Module}{\textrm{Statistics and Computer Science.}}
+\cvitem{Result}{\textrm{Second Class Upper Division (4.24) obtained on a 5.0 scale.}}
+\cventry{May.--Jun. 2004}{\textrm{WAEC}}{\emph{\textrm{Baptist Girls' High School, Osogbo, \textrm{{Osun State, Nigeria}}}}}
+\cvitem{}{}
+\cventry{Jun.--Jul. 2004}{\textrm{NECO}}{\emph{\textrm{Baptist Girls' High School, Osogbo, \textrm{{Osun State, Nigeria}}}}}
+%\cventry{Jun--Jul. 2004}{\textrm{NECO}}{\emph{\textrm{Baptist Girls' High School, Osogbo, \textrm{{Osun State, Nigeria}}}}}
+\cvitem{}{}
+
+
+\section{\textsc{Achievement}}
+\cvitem{Sept 2013 -- present}{\textrm{University of British Columbia, Vancouver Canada, International Student Award.}}
+\cvitem{Jul 2012--Jun 2013}{\textrm{AIMS-South Africa Scholarship.}}
+\cvitem{Mar 2012}{\textrm{Representative of Ladoke Akintola University in National Mathematics Competition Abuja, Nigeria.}}
+\cvitem{2010}{\textrm{Vocalist of an Audio and Video Musical Album.}}
+\\
+\\
+\section{\textsc{Conferences and Workshops}}
+\cvitem{2013}{\textrm{International Graduate Training Summit (IGTC) in Mathematical Biology (Pacific Institute for the Mathematical Sciences) Alberta, Canada.}}
+\cvitem{2013}{\textrm{Mathematical Modelling of Geophysical Fluids (\textit{Mathematics of Planet Earth 2013 (MPE2013) Workshop }), 2013, AIMS.}}
+\cvitem{2013}{\textrm{Mathematics of Planet Earth, University of Cape Town. }}
+\cvitem{2012}{\textrm{Discrete Geometry and Visualization Workshop, African Institute for
+Mathematical Sciences(AIMS) South Africa.}}
+%\cvitem{2011}{\textrm{Geometric Representation Theory Conference, 2011, ITB-Bandung Indonesia}}
+%\cvitem{2011}{\textrm{Conference in Number Theory, Carleton University, 2011, Ottawa - Canada}}
+%\cvitem{2011}{\textrm{Some aspects of Mahler measure, Graduate seminar, Stellenbosch University}}
+%\cvitem{2011}{\textrm{Cyclotomic polynomials, Arithmetic Geometry, 2011, Stellenbosch University}}
+%\cvitem{2010}{\textrm{HPC School \& CHPC National Conference, Cape Town}}
+%\cvitem{2010}{\textrm{Parallel worlds of Number Theory, Algebra workshop, Stellenbosch University.}}
+
+\section{\textsc{Scientific Interests and Career Objectives}}
+\cvitem{}{
+\textrm{I am interested in Mathematical Modelling of Communicable Diseases (Epidemiology) and Numerical Simulation. I also work in the following fields:}}
+\cvitem{}{\textrm{Mathematical Analysis, Numerical Simulation of Differential Equations with Applications in Physics, Biology, Socio-economics and Engineering.
+}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\textsc{Professional Experience and Responsibilities}}
+\cvitem{Teaching and Research}{}
+\cvitem{Sept 2013 --till date}{\textrm{Graduate Teaching/Research Assistant, University of British Columbia, Vancouver BC, Canada.}}
+\cvitem{Internship}{}
+\cvitem{Oct 2010 --Mar 2011}{\textrm{Receiving Teller and Customer Service attender, Guaranty Trust Bank, Osogbo, Nigeria.}}
+\cvitem{Responsibilities}{}
+\cvitem{}{Account balancing on money deposited by customers.}
+\cvitem{}{Making till from pieces of money gotten from customers.}
+\cvitem{}{Opening and Closing of Accounts as required by customers.}
+\cvitem{}{ATM cards activation and deactivation.}
+\cvitem{}{Great experience in working under pressure and as part of team in the department.}
+\cvitem{Teaching}{}
+\cvitem{Jan.--Dec. 2005}{\textrm{Primary School Teacher (\textit{Mathematics and Quantitative Analysis}), El-shaddai Nursery and Primary School, Osogbo, Osun State, Nigeria.}}
+\cvitem{Jan.--Sep. 2006}{\textrm{Mathematics Tutor, El-shaddai Comprehensive High School, Osogbo, Osun State.}}
+
+\section{\textsc{Presentation}}
+\cvitem{2014}{\textrm{Modeling the Transmission of Hepatitis B in British Columbia, SPPH 518, UBC Canada}}
+\cvitem{2013}{\textrm{A model for analysis of drug abuse and HIV infection, IGTC Summit, Alberta Canada}}
+\cvitem{2013}{\textrm{A model for analysis of drug abuse and HIV infection, AIMS-South Africa}}
+\cvitem{2013}{\textrm{Tikz in Latex}}
+\cvitem{2013}{\textrm{Mathematical Biology Cheat Sheet, AIMS-South Africa}}
+\cvitem{2012}{\textrm{Lee Algebra, AIMS-South Africa}}
+\cvitem{2011}{\textrm{Mathematical Modelling of HIV/AIDS, Lautech}}
+
+\section{\textsc{Programming Languages}}
+\cvitem{Procedural}{\textrm{Python-Scipy}}
+\cvitem{Scientific}{\textrm{SAGE, MATLAB, MAPLE, SINGULAR, R}}
+\cvitem{}{\textrm{\LaTeX, Microsoft Office\texttrademark}}
+%\cvitem{Networking}{\textrm{Databases, Networking and Website design (MySQL, Microsoft Access, LAN, WAN, Windows 2003 Server, Security and Configuration, Dream Weaver and Frontage)}}
+
+
+\section{\textsc{Languages}}
+\cvitem{English}{\textrm{Fluent:\hspace{2.5em}First language and language of instruction}}
+\cvitem{Yoruba}{\textrm{Fluent\hspace{2em}}}
+
+\section{\textsc{Skills}}
+\cvitem{Good Communication Skills}{\textrm{Oral communication skills developed through studies, many presentations, business interactions  	and self development.}}
+\cvitem{Good Motivational Skills}{\textrm{ Developed during my industrial training at the operation department.}}
+\cvitem{Problem Solving and Analytical Thinking}{\textrm{ Analysing problems in my course work and solving them accurately.}}
+\cvitem{Marketing Skills}{\textrm{ Developed during my industrial training, we meet new and existing customers and tell them about our bank and services.}}
+ 
+\section{\textsc{ Personal Attributes}}
+\cvitem{Attributes}{\textrm{I am an enthusiastic,young, talented, dynamic and good team player with good public relations, communication skills  and time management. I am also a hard and devoted worker with good understanding of statistics and ability to work on complex data.}}
+
+\section{\textsc{ Interests and Involvements}}
+\cvitem{}{\textrm{Reading of scientific books and calculating.}}
+\cvitem{}{\textrm{Playing of Sudoku game.}}
+\cvitem{}{\textrm{Beads making, Hair dressing and Small scale business.}}
+\cvitem{}{\textrm{Singing, Dancing and Travelling.}}
+\cvitem{}{\textrm{Cooking, baking of cakes and making of snacks.}}
+
+\closesection{}
+%\pagebreak{}
+
+\section{\textsc{Referees}}%\closesection
+\cvitem{}{\textrm{These persons are familiar with my professional qualifications and character:}}
+\cvitem{}{\begin{tabular}{@{}lll@{}}
+\textrm{\textbf{Professor(Emeritus) Fred Brauer}} & \\
+\textrm{Associate Professor,} \\ \textrm{University of  British Columbia,} \ & \quad   
+%\textrm{Phone :} & \text{+44 (0)141 548 3649} 
+\\
+\textrm{Canada}   & \quad  \text{Email :} & \underline{\text{brauer@math.ubc.ca}} \\
+\\
+\textrm{\textbf{Professor Wilson Lamb}} & \\
+\textrm{Senior Lecturer,} \\ \textrm{University of  Strathclyde,} \ & \quad   \textrm{Phone :} & \text{+44 (0)141 548 3649} \\
+\textrm{United Kingdom}   & \quad  \text{Email :} & \underline{\text{w.lamb@strath.ac.uk}} \\
+\\
+\textrm{\textbf{Professor Kesh Govinder}} & \\
+\textrm{Dean and Head of School,} \\ \textrm{University of Kwazulu-Natal,} \ & \quad    \textrm{Phone :} & \text{+27(0)31 260 3021} \\
+\textrm{ South Africa}   & \quad  \text{Email :} & \underline{\text{govinder@ukzn.ac.za}} \\\\
+\end{tabular}}
+%
+
+\section{\textsc{Updated}}
+\cvitem{}{\textrm{\today}}
+
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{jdoe_publications}
+
+
+\end{document}
+
+
+%% end of file `diochnos_cv.tex'.
